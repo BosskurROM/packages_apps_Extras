@@ -500,8 +500,6 @@
     <string name="aicp_downloads_link" translatable="false">"https://wiki.maud.io/floko/pie/"</string>
     <string name="aicp_ota_title">Update center</string>
     <string name="aicp_ota_summary">Check for Floko updates</string>
-    <string name="stats_title">Statistics</string>
-    <string name="stats_summary">Opt in/out for anonymous stats</string>
     <string name="device_maintainer_title">Device maintainer</string>
     <string name="device_maintainer_dialog">Device maintainer</string>
     <string name="device_maintainers_dialog">Device maintainers</string>

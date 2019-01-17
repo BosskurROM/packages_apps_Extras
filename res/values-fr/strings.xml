@@ -140,7 +140,6 @@
   <string name="aicp_downloads_summary">Visiter la page de téléchargement AICP pour votre appareil</string>
   <string name="aicp_ota_title">Centre de mise à jour</string>
   <string name="aicp_ota_summary">Rechercher des mises à jour AICP</string>
-  <string name="stats_title">Statistiques</string>
   <string name="device_maintainer_title">Mainteneur de l\'appareil</string>
   <string name="device_maintainer_dialog">Mainteneur de l\'appareil</string>
   <string name="device_maintainers_dialog">Mainteneurs de l\'appareil</string>

@@ -201,8 +201,6 @@
   <string name="aicp_downloads_summary">Visite a página de download AICP para o seu dispositivo</string>
   <string name="aicp_ota_title">Centro de Atualização</string>
   <string name="aicp_ota_summary">Verificar se há atualizações</string>
-  <string name="stats_title">Estatísticas</string>
-  <string name="stats_summary">Opt in/out para estatísticas anônimas</string>
   <string name="device_maintainer_title">Mantenedor do dispositivo</string>
   <string name="device_maintainer_dialog">Mantenedor do dispositivo</string>
   <string name="device_maintainers_dialog">Mantenedores do dispositivo</string>

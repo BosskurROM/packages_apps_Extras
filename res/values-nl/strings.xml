@@ -202,8 +202,6 @@
   <string name="aicp_downloads_summary">Bezoek de AICP downloadpagina voor jouw apparaat</string>
   <string name="aicp_ota_title">OTA update centrum</string>
   <string name="aicp_ota_summary">Controleer op AICP updates</string>
-  <string name="stats_title">Statistieken</string>
-  <string name="stats_summary">Aan- of afmelden voor anonieme statistieken</string>
   <string name="device_maintainer_title">Apparaat onderhouder</string>
   <string name="device_maintainer_dialog">Apparaat onderhouder</string>
   <string name="device_maintainers_dialog">Apparaat onderhouders</string>

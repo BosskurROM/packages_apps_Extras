@@ -202,8 +202,6 @@
   <string name="aicp_downloads_summary">AICP indirme sayfasını ziyaret et</string>
   <string name="aicp_ota_title">Güncelleme merkezi</string>
   <string name="aicp_ota_summary">AICP güncellemelerini denetle</string>
-  <string name="stats_title">İstatistikler</string>
-  <string name="stats_summary">Anonim istatistiklerin seçilmesi ve açılması</string>
   <string name="device_maintainer_title">Cihaz sorumlusu</string>
   <string name="device_maintainer_dialog">Sorumlu</string>
   <string name="device_maintainers_dialog">Cihaz sorumluları</string>

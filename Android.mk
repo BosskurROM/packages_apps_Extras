@@ -39,9 +39,6 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 LOCAL_STATIC_JAVA_LIBRARIES := \
     particles
 
-# Apache http for stats
-LOCAL_JAVA_LIBRARIES := org.apache.http.legacy
-
 LOCAL_USE_AAPT2 := true
 
 LOCAL_PACKAGE_NAME := AicpExtras

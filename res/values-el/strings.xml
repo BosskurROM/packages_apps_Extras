@@ -167,7 +167,6 @@
   <string name="aicp_downloads_summary">Επισκεφτείτε τη σελίδα λήψεων AICP για τη συσκευή σας</string>
   <string name="aicp_ota_title">Κέντρο ενημερώσεων</string>
   <string name="aicp_ota_summary">Έλεγχος για ενημερωμένες εκδόσεις AICP</string>
-  <string name="stats_title">Στατιστικά</string>
   <string name="device_maintainer_title">Συντηρητής συσκευής</string>
   <string name="device_maintainer_dialog">Συντηρητής συσκευής</string>
   <string name="device_maintainers_dialog">Συντηρητές συσκευής</string>

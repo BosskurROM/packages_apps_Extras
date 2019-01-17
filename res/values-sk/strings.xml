@@ -202,8 +202,6 @@
   <string name="aicp_downloads_summary">Navštívte stránku sťahovania AICPA pre vaše zariadenie</string>
   <string name="aicp_ota_title">Centrum aktualizácií</string>
   <string name="aicp_ota_summary">Skontrolovať AICP aktualizácie</string>
-  <string name="stats_title">Štatistiky</string>
-  <string name="stats_summary">Povoliť/zakázať anonymné štatistiky</string>
   <string name="device_maintainer_title">Správcovia zariadenia</string>
   <string name="device_maintainer_dialog">Správcovia zariadenia</string>
   <string name="device_maintainers_dialog">Správcovia zariadenia</string>

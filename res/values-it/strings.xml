@@ -202,8 +202,6 @@
   <string name="aicp_downloads_summary">Visita la pagina download AICP per il tuo dispositivo</string>
   <string name="aicp_ota_title">Centro aggiornamenti</string>
   <string name="aicp_ota_summary">Verifica la presenza di aggiornamenti sulla ROM corrente</string>
-  <string name="stats_title">Statistiche</string>
-  <string name="stats_summary">Opzione in/out per le statistiche anonime</string>
   <string name="device_maintainer_title">Device maintainer</string>
   <string name="device_maintainer_dialog">Device maintainer</string>
   <string name="device_maintainers_dialog">Device maintainers</string>
