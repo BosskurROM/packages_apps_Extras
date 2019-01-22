@@ -238,7 +238,7 @@
     <!-- Reboot -->
     <!-- Advanced Reboot -->
     <!-- Power Menu -->
-    <string name="global_actions_power_menu_title">電源メニュー</string>
+    <string name="global_actions_power_menu_title">電源メニューの設定</string>
     <!-- Hide statusbar on lockscreen -->
     <string name="lockscreen_hide_status_bar_title">ステータスバーを隠す</string>
     <string name="lockscreen_hide_status_bar_summary">有効にすると、ロック画面でステータスバーを隠します</string>
@@ -352,8 +352,6 @@
     <string name="info_category">情報</string>
     <string name="aicp_website_title">ウェブサイト</string>
     <string name="aicp_website_summary">ウェブサイトにアクセスします</string>
-    <string name="aicp_gerrit_title">Gerrit Code Review</string>
-    <string name="aicp_gerrit_summary">Gerrit で AICP の開発の最前線をチェックします</string>
     <string name="aicp_changelog_title">更新履歴</string>
     <string name="aicp_changelog_summary">ROM の最近の更新履歴を確認します</string>
     <string name="aicp_downloads_title">ダウンロード</string>
@@ -362,12 +360,14 @@
     <string name="aicp_ota_summary">ROM の更新を確認します</string>
     <string name="stats_title">利用統計</string>
     <string name="stats_summary">匿名の統計をオプトイン/アウトします</string>
-    <string name="device_maintainer_title">メンテナ</string>
+    <string name="device_maintainer_title">デバイスとメンテナ</string>
     <string name="device_maintainer_dialog">メンテナ</string>
     <string name="device_maintainers_dialog">メンテナ</string>
     <string name="device_maintainer_default">不明</string>
     <string name="no_root_title">root 化されていません</string>
     <string name="no_root_summary">root 化するとより多くの機能を使えます</string>
+    <string name="aicp_version_title">バージョン番号</string>
+    <string name="build_date_title">ビルド日時</string>
     <!-- Other / general purpose -->
     <string name="on">ON</string>
     <string name="off">OFF</string>
@@ -410,8 +410,11 @@
     <string name="navigation_title">ナビゲーション</string>
     <string name="navigation_summary">標準/Smartbar/Fling/ジェスチャー</string>
     <!-- OP like navigation gestures -->
+    <string name="use_bottom_gesture_title">ナビゲーションジェスチャー</string>
+    <string name="use_bottom_gesture_summary">画面下端から上にスワイプするナビゲーションを使用します\nナビゲーションバーは無効化されます！</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_title">ナビゲーションバー</string>
+    <string name="navigation_bar_summary">ナビゲーションバーを有効にする</string>
     <!-- DUI -->
     <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">アプリを選択</string>
@@ -422,6 +425,8 @@
     <string name="navbar_interface_title">インターフェース</string>
     <string name="navbar_size">ナビゲーションバーのサイズ</string>
     <string name="navbar_mode">ナビゲーションモード</string>
+    <string name="navbar_mode_summary">端末で使用するナビゲーションモードを選択してください</string>
+    <string name="navbar_visibility">ナビゲーションバーを有効にする</string>
     <string name="navigationbar_settings_summary">ナビゲーションバーのスタイルや動作を設定します</string>
     <string name="navbar_general_title">高度な設定</string>
     <string name="navigation_bar_left_title">左利きモード</string>
@@ -522,14 +527,18 @@
     <!-- SmartBar -->
     <string name="smartbar_category">Smartbar</string>
     <string name="smartbar_settings_title">Smartbar の設定</string>
+    <string name="smartbar_settings_summary">完全にカスタマイズ可能なナビゲーションバー</string>
     <string name="smartbar_editor_title">編集モードを開始</string>
     <string name="smartbar_editor_summary">Smartbar のボタンエディタを開きます</string>
     <string name="smartbar_right">右</string>
     <string name="smartbar_left">左</string>
     <string name="smartbar_button_animation_title">ボタンタッチ時のアニメーション</string>
     <string name="smartbar_button_animation_ripple">リップル</string>
-    <string name="smartbar_button_animation_spring">はねる</string>
+    <string name="smartbar_button_animation_spring">スプリング</string>
     <string name="smartbar_button_animation_flip">左右に回転</string>
+    <string name="smartbar_button_animation_pixel">Pixel</string>
+    <string name="smartbar_button_animation_pixel_home">スプリングと Pixel (ホームボタンのみ)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">リップルと Pixel (ホームボタンのみ)</string>
     <string name="smartbar_factory_reset_title">初期設定に戻す</string>
     <string name="smartbar_factory_reset_confirm">本当に Smartbar を初期設定に戻しても良いですか？</string>
     <string name="smartbar_ime_action_title">入力方法とメディアのアクション</string>
@@ -610,6 +619,7 @@
     <string name="hw_keys_title">ハードウェアボタン</string>
     <string name="hw_keys_summary">端末のハードウェアボタンを設定します</string>
     <!-- Power keys -->
+    <string name="category_power_key">電源ボタン</string>
     <!-- Volume keys -->
     <string name="category_volume_keys">音量ボタン</string>
     <!-- Volume rocker wake -->
@@ -678,15 +688,54 @@
     <string name="app_circle_bar_appchooser_pref_title">アプリを追加</string>
     <string name="app_circle_bar_show_trigger_title">トリガー領域の表示</string>
     <!-- Themes -->
+    <string name="theming_title">テーマ</string>
+    <string name="theming_summary">端末の規定のデザインを設定します</string>
+    <string name="theming_base_title">基本のテーマ</string>
     <string name="theming_accent_title">アクセントカラー</string>
+    <string name="theming_base_default">ライト (デフォルト)</string>
+    <string name="theming_base_dark">ダーク (通知はライト)</string>
     <string name="theming_base_dark_notif">ダーク</string>
+    <string name="theming_base_dark_transparent">ダーク (透明)</string>
+    <string name="theming_base_black">ブラック (通知はライト)</string>
+    <string name="theming_base_black_notif">ブラック</string>
+    <string name="theming_base_black_transparent">ブラック (透明)</string>
     <string name="theming_accent_default">デフォルト</string>
+    <string name="theming_accent_amber">琥珀色</string>
+    <string name="theming_accent_bluelight">青</string>
+    <string name="theming_accent_cyan">シアン</string>
+    <string name="theming_accent_denim">デニム</string>
+    <string name="theming_accent_gold">金</string>
+    <string name="theming_accent_greenlight">緑</string>
+    <string name="theming_accent_lime">ライム</string>
+    <string name="theming_accent_orange">オレンジ</string>
+    <string name="theming_accent_oxygen">Oxygen</string>
+    <string name="theming_accent_pink">ピンク</string>
+    <string name="theming_accent_pixel">Pixel</string>
+    <string name="theming_accent_purple">紫</string>
+    <string name="theming_accent_red">赤</string>
+    <string name="theming_accent_teal">ティール</string>
+    <string name="theming_accent_turquoise">ターコイズ</string>
+    <string name="theming_accent_yellow">黄色</string>
+    <string name="theming_corners_title">パネルの角</string>
     <string name="theming_corners_default">デフォルト</string>
+    <string name="theming_corners_round">ラウンド</string>
     <string name="theming_corners_nonround">スクエア</string>
     <!-- Device hidden prefs -->
     <!-- QS shape theme -->
+    <string name="theming_qs_shape_title">クイック設定のアイコン</string>
+    <string name="theming_qs_shape_default">ラウンド (デフォルト)</string>
+    <string name="theming_qs_shape_plain">プレーン</string>
+    <string name="theming_qs_shape_plain_accent">プレーン (アクセントカラー)</string>
+    <string name="theming_qs_shape_squircle">Squircle</string>
     <string name="theming_qs_shape_square">スクエア</string>
+    <string name="theming_qs_shape_rounded_square">スクエア (角丸)</string>
+    <string name="theming_qs_shape_hexagon">六角形</string>
     <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">システム設定の項目アイコン</string>
+    <string name="theming_settings_dashboard_icons_default">ラウンド (デフォルト)</string>
+    <string name="theming_settings_dashboard_icons_default_accent">ラウンド (アクセントカラー)</string>
+    <string name="theming_settings_dashboard_icons_plain">プレーン</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">プレーン (アクセントカラー)</string>
     <!-- Status bar brightness control -->
     <!-- Less Notification sounds -->
     <!-- Smart Pixels -->
@@ -706,4 +755,6 @@
     <!-- App Ops-->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <!-- Data Disabled Icon -->
+    <string name="data_disabled_icon_title">無効なデータ通信のアイコンを表示する</string>
+    <string name="data_disabled_icon_summary">データ通信が無効なときにステータスバー上にバツ印を表示します</string>
 </resources>
