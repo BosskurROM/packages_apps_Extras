@@ -69,24 +69,6 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".romstats.ReportingServiceManager"
-            android:enabled="true"
-            android:exported="false"
-            android:label="ReportingServiceManager" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name=".romstats.ReportingService"
-            android:enabled="true"
-            android:exported="false"
-            android:label="ReportingService" >
-        </service>
-
         <receiver android:name="com.aicp.extras.utils.OnBoot">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
