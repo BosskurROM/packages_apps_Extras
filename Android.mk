@@ -36,9 +36,6 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     AicpGear-preference \
     AicpGear-util
 
-LOCAL_STATIC_JAVA_LIBRARIES := \
-    particles
-
 LOCAL_USE_AAPT2 := true
 
 LOCAL_PACKAGE_NAME := AicpExtras
@@ -52,8 +49,6 @@ include frameworks/base/packages/SettingsLib/common.mk
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
-
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := particles:lib/LeonidsLib-1.3.2.jar
 
 include $(BUILD_MULTI_PREBUILT)
 
