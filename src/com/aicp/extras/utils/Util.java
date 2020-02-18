@@ -113,7 +113,7 @@ public abstract class Util {
    }
 
    public static String getDownloadLinkForDevice(Context context) {
-        return "https://floko.maud.io";
+        return "https://todak.com";
    }
 
    public static String readStringFromFile(File inputFile) throws IOException {
