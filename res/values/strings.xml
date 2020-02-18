@@ -523,7 +523,7 @@
     <string name="info_category">Info</string>
     <string name="aicp_website_title">Website</string>
     <string name="aicp_website_summary">Visit the our Website</string>
-    <string name="aicp_website_link" translatable="false">"https://floko.maud.io"</string>
+    <string name="aicp_website_link" translatable="false">"https://todak.com"</string>
     <string name="aicp_walls_title">Wallpapers</string>
     <string name="discord_title" translatable="false">Discord</string>
     <string name="discord_summary" translatable="false">Visit Floko Discord Server</string>
@@ -532,7 +532,7 @@
     <string name="aicp_changelog_summary">View recent changes made to Floko</string>
     <string name="aicp_downloads_title">Downloads</string>
     <string name="aicp_downloads_summary">Visit the Floko download page for your device</string>
-    <string name="aicp_downloads_link" translatable="false">"https://floko.maud.io/docs/p9.0/"</string>
+    <string name="aicp_downloads_link" translatable="false">"https://todak.com"</string>
     <string name="aicp_ota_title">Update center</string>
     <string name="aicp_ota_summary">Check for Floko updates</string>
     <string name="device_maintainer_title">Device maintainer</string>
