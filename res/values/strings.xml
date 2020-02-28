@@ -523,25 +523,25 @@
     <string name="info_category">Info</string>
     <string name="aicp_website_title">Website</string>
     <string name="aicp_website_summary">Visit the our Website</string>
-    <string name="aicp_website_link" translatable="false">"https://todak.com"</string>
+    <string name="aicp_website_link" translatable="false">"https://foe.com"</string>
     <string name="aicp_walls_title">Wallpapers</string>
     <string name="discord_title" translatable="false">Discord</string>
-    <string name="discord_summary" translatable="false">Visit Floko Discord Server</string>
+    <string name="discord_summary" translatable="false">Visit Bosskur Discord Server</string>
     <string name="discord_link" translatable="false">"http://bit.ly/hellolineage"</string>
     <string name="aicp_changelog_title">Changelog</string>
-    <string name="aicp_changelog_summary">View recent changes made to Floko</string>
+    <string name="aicp_changelog_summary">View recent changes made to bosskur</string>
     <string name="aicp_downloads_title">Downloads</string>
-    <string name="aicp_downloads_summary">Visit the Floko download page for your device</string>
-    <string name="aicp_downloads_link" translatable="false">"https://todak.com"</string>
+    <string name="aicp_downloads_summary">Visit the Bosskur download page for your device</string>
+    <string name="aicp_downloads_link" translatable="false">"https://foe.com"</string>
     <string name="aicp_ota_title">Update center</string>
-    <string name="aicp_ota_summary">Check for Floko updates</string>
+    <string name="aicp_ota_summary">Check for Bosskur updates</string>
     <string name="device_maintainer_title">Device maintainer</string>
     <string name="device_maintainer_dialog">Device maintainer</string>
     <string name="device_maintainers_dialog">Device maintainers</string>
     <string name="device_maintainer_default">Unknown</string>
     <string name="no_root_title">Not rooted</string>
     <string name="no_root_summary">For more functionality, root your device</string>
-    <string name="aicp_version_title">Floko version</string>
+    <string name="aicp_version_title">Bosskur version</string>
     <string name="build_date_title">Build date</string>
 
     <!-- Other / general purpose -->
